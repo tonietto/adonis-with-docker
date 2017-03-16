@@ -1,9 +1,19 @@
-  - READ INSTRUCTIONS AT
-  
+# Adonis with Docker #
+
+  - Uses adonis, mongorito and docker
+
+# Steps #
+
+  - Created a new project with `adonis new project`
+
+  - Followed instructions at
+
   > https://github.com/allanfreitas/adonis-mongorito
 
-  - COPY DOCKERFILE, DOCKER-COMPOSE.YML AND .ENV
+  - Created `Dockerfile`, `docker-compose.yml` and `.env`
 
-  - CREATE .DOCKERIGNORE
+  - Disabled CSRF token and host comparison
 
-  - DISABLE CSRF TOKEN AND HOST COMPARISON
+  - `docker-compose up`
+
+  - And tried GET and POST routes
