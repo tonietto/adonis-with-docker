@@ -1,0 +1,9 @@
+  - READ INSTRUCTIONS AT
+  
+  > https://github.com/allanfreitas/adonis-mongorito
+
+  - COPY DOCKERFILE, DOCKER-COMPOSE.YML AND .ENV
+
+  - CREATE .DOCKERIGNORE
+
+  - DISABLE CSRF TOKEN AND HOST COMPARISON

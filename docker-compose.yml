@@ -1,0 +1,14 @@
+version: '2'
+
+services:
+  mongo:
+    image: mongo
+  app:
+    build: .
+    command: npm run serve:dev
+    ports:
+      - "3333:3333"
+    volumes:
+      - .:/app
+    links:
+      - mongo
